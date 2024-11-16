@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Product>
+
+<h1>Products Below Stock Threshold</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Unit Price</th>
+            <th>Stock</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.ProductName</td>
+                <td>@product.UnitPrice</td>
+                <td>@product.Stock</td>
+            </tr>
+        }
+    </tbody>
+</table>

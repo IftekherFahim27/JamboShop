@@ -1,0 +1,25 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Edit Product";
+}
+<h1>Edit Product</h1>
+<form asp-action="Edit">
+    <input type="hidden" asp-for="ProductId" />
+    <div class="form-group">
+        <label for="ProductName">Product Name</label>
+        <input asp-for="ProductName" class="form-control" />
+        <span asp-validation-for="ProductName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="UnitPrice">Unit Price</label>
+        <input asp-for="UnitPrice" class="form-control" />
+        <span asp-validation-for="UnitPrice" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Stock">Stock</label>
+        <input asp-for="Stock" class="form-control" />
+        <span asp-validation-for="Stock" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

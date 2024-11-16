@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamboShop", "JamboShop\JamboShop.csproj", "{8AD1854F-8739-45EC-B756-F40FA9CF3BDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AD1854F-8739-45EC-B756-F40FA9CF3BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD1854F-8739-45EC-B756-F40FA9CF3BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD1854F-8739-45EC-B756-F40FA9CF3BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD1854F-8739-45EC-B756-F40FA9CF3BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBD12084-CA02-4C15-9900-CC5ECA076019}
+	EndGlobalSection
+EndGlobal
